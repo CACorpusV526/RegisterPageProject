@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member-Registration</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <nav class = "nav-bar">
+        <ul>
+            <li>Sign Up</li>
+            <li>Login</li>
+        </ul>
+    </nav>
+    <form>
+        <h3>Become a Member!</h3>
+        <input type = "text" onfocus="if(this.value=='Email')this.value='';" onblur="if(this.value=='')this.value='Email';" value = "Email"/>
+        <br />
+        <br />
+        <input type = "text" onfocus="if(this.value=='Username')this.value='';" onblur="if(this.value=='')this.value='Username';" value = "Username"/>
+        <br />
+        <br />
+        <input type = "text" onfocus="if(this.value=='Password')this.value='';" onblur="if(this.value=='')this.value='Password';" value = "Password"/>
+        <br />
+        <br />
+        <input type = "text" onfocus="if(this.value=='Confirm Password')this.value='';" onblur="if(this.value=='')this.value='Confirm Password';" value = "Confirm Password"/>
+        <br />
+        <br />
+        <input id="btnSubmit" type="button" value="Submit" />
+        <br />
+        <br />
+        <div id = "images">
+            <a href="https://github.com/login" target = "blank">
+            <img src = "../RegistDemo(Personal)/assets/GitHub-Mark.png" width="35px" height="35px" style = "margin : 0px 5px">
+            </a>
+            <a href="https://www.linkedin.com/login" target = "blank">
+            <img src = "../RegistDemo(Personal)/assets/linkedin.jpg" width = "35px" height = "35px" style = "margin : 0px 5px">
+            </a>
+            <a href="https://www.google.com/gmail/about/#" target = "blank">
+            <img src = "../RegistDemo(Personal)/assets/logo-gmail.png" width = "35px" height="35px" style = "margin : 0px 5px">
+            </a>
+            <a href="https://www.instagram.com/accounts/login/" target = "blank">
+            <img src = "../RegistDemo(Personal)/assets/instagram_logo.png" width = "35px" height = "35px" style = "margin : 0px 5px">
+            </a>
+            <a href="https://www.facebook.com/" target = "blank">
+            <img src = "../RegistDemo(Personal)/assets/1200px-Facebook_f_logo_(2019).svg.png" width = "35px" height = "35px" style = "margin : 0px 5px">
+            </a>
+        </div>
+    </form>
+</body>
+</html>

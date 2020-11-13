@@ -1,0 +1,39 @@
+body {
+    padding-top: 200px;
+    background-image: radial-gradient(circle,white, cyan);
+}
+form {
+    margin: auto;
+    height: 325px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    text-align: center;
+}
+#btnSubmit {
+background-color: blue;
+color: white;
+width: 100px;
+}
+nav {
+    background-color: rgb(49, 47, 47);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 50px;
+}
+nav ul li {
+display: inline-block;
+color: orange;
+font-weight: bold;
+margin-right: 20px;
+}
+nav ul {
+    text-align: right;
+}
+.images {
+    display: inline-block;
+}
